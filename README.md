@@ -99,6 +99,13 @@ younger applicants tend to have thinner credit files, which the model
 reads as risk. ReasonCode doesn't fix this; it *surfaces* it, which is
 the point of a fairness audit step in a real compliance pipeline.
 
+![Decline rate by age group, with the four-fifths (0.80) threshold line, from the real fairness audit -- actual ratio 0.39](assets/fairness_audit.png)
+
+Real numbers from `demo_output.json` (a committed run of
+`python pipeline.py demo` against the full GMSC test set), not
+illustrative figures -- regenerate with
+`python scripts/generate_fairness_chart.py` after any re-run.
+
 ## Repo layout
 
 ```
@@ -114,6 +121,8 @@ pipeline.py                  CLI: `python pipeline.py demo`
 tests/                       pytest suite (real model, no mocks)
 eval/eval_grounding_gate.py  the EVAL GATE script
 eval_results.json            append-only raw eval history
+scripts/generate_fairness_chart.py  renders assets/fairness_audit.png from demo_output.json
+assets/fairness_audit.png    decline rate by age group vs. the four-fifths threshold
 EVAL-FINDINGS.md             eval method + verdict
 NOTES.md                     the local-LLM sandbox investigation, in full
 ```
