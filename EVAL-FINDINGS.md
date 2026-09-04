@@ -62,9 +62,15 @@ exact bug (the "grounded" row would have failed to hit 100%) -- and does
 guard against it regressing, via `tests/test_taxonomy.py`'s keyword-
 uniqueness assertions plus this eval's `grounded_pass_rate`.
 
-## Verdict: **CONFIRMED**
+## Verdict: **CONFIRMED, narrowly scoped**
 
-The claim holds on the test constructed. The grounding gate correctly
-passes all grounded narratives and correctly rejects all omission and
-invention corruptions, on real applicants scored by the real trained
-model.
+What this run establishes: a deterministic grounding gate provably
+catches synthetic omission and invention corruptions (50/50 each) on
+real applicant reasons. The LLM-generation step the gate is designed to
+guard could not be run in this environment (see "Why this claim, not
+..." above), so the gate's catch-rate against *real* model
+hallucinations is untested -- that remains the open question. Within
+that scope the claim holds on the test constructed: the grounding gate
+correctly passes all grounded narratives and correctly rejects all
+omission and invention corruptions, on real applicants scored by the
+real trained model.

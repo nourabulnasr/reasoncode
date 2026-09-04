@@ -9,14 +9,21 @@ have received CFPB consent orders for getting this wrong. ReasonCode is a
 small end-to-end pipeline that shows what a compliant version of that
 step actually looks like, and -- the actually novel part -- mechanically
 verifies that the generated letter didn't invent or omit a reason before
-it ships.
+it ships. The shipped demo uses a deterministic template generator, not
+an LLM -- see the scope cut below.
 
-**EVAL GATE VERDICT: CONFIRMED.** The grounding gate correctly caught
-100% (50/50) of narratives with an omitted reason and 100% (50/50) with
-an invented/hallucinated reason, while passing 100% (50/50) of correctly-
-grounded narratives, tested on real declined applicants from the real
-trained model. See `EVAL-FINDINGS.md` for the full method and
-`eval_results.json` for the raw run.
+**EVAL GATE VERDICT: CONFIRMED, narrowly scoped.** What was actually
+tested: a deterministic grounding gate provably catches synthetic
+omission and invention corruptions (50/50 each) on real applicant
+reasons. The LLM-generation step it's designed to guard could not be run
+in this environment, so the gate's catch-rate against *real* model
+hallucinations is untested -- that's the open question. Within that
+scope the claim holds: the gate caught 100% (50/50) of narratives with an
+omitted reason and 100% (50/50) with an invented/hallucinated reason,
+while passing 100% (50/50) of correctly-grounded narratives, tested on
+real declined applicants from the real trained model. See
+`EVAL-FINDINGS.md` for the full method and `eval_results.json` for the
+raw run.
 
 ## What it actually does
 
