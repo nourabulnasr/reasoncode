@@ -1,0 +1,12 @@
+pandas
+scikit-learn
+lightgbm
+shap
+fairlearn
+pytest
+
+# Optional, only needed for the experimental use_llm=True path in
+# src/generate.py (untested end-to-end in the build environment -- see
+# NOTES.md). Not required to run the shipped demo.
+transformers
+torch

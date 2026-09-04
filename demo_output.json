@@ -1,0 +1,235 @@
+{
+  "test_auc": 0.8691713473950416,
+  "n_declined_sampled": 20,
+  "gate_pass_rate": 1.0,
+  "fairness": {
+    "group_decline_rates": {
+      "age_40_plus": 0.01716300607502443,
+      "age_under_40": 0.04349171954805758
+    },
+    "four_fifths_ratio": 0.3946269830986934,
+    "passes_four_fifths_rule": false
+  },
+  "sample_letters": [
+    {
+      "applicant_index": 12131,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 109204,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 39642,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 9278,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 72625,
+      "reasons": [
+        "Excessive use of available revolving credit lines",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Insufficient number of credit references"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Excessive use of available revolving credit lines\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Insufficient number of credit references\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 62153,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 143156,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 67721,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 121035,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Excessive use of available revolving credit lines",
+        "Delinquent payment history in the past 12 months (30-89 days past due)"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Excessive use of available revolving credit lines\n- Delinquent payment history in the past 12 months (30-89 days past due)\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 83086,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Excessive use of available revolving credit lines",
+        "Delinquent payment history in the past 12 months (30-89 days past due)"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Excessive use of available revolving credit lines\n- Delinquent payment history in the past 12 months (30-89 days past due)\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 147885,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 113349,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 140408,
+      "reasons": [
+        "Excessive use of available revolving credit lines",
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Excessive use of available revolving credit lines\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 89600,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 144879,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Excessive use of available revolving credit lines",
+        "Delinquent payment history in the past 12 months (30-89 days past due)"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Excessive use of available revolving credit lines\n- Delinquent payment history in the past 12 months (30-89 days past due)\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 87409,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Excessive use of available revolving credit lines",
+        "Delinquent payment history in the past 12 months (30-89 days past due)"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Excessive use of available revolving credit lines\n- Delinquent payment history in the past 12 months (30-89 days past due)\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 22555,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Excessive use of available revolving credit lines",
+        "Delinquent payment history in the past 12 months (30-89 days past due)"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Excessive use of available revolving credit lines\n- Delinquent payment history in the past 12 months (30-89 days past due)\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 52669,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 62381,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Excessive use of available revolving credit lines",
+        "Delinquent payment history in the past 12 months (30-89 days past due)"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Excessive use of available revolving credit lines\n- Delinquent payment history in the past 12 months (30-89 days past due)\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    },
+    {
+      "applicant_index": 72766,
+      "reasons": [
+        "Serious delinquency (90+ days past due) on past or present credit obligations",
+        "Delinquent payment history in the past 12 months (30-89 days past due)",
+        "Excessive use of available revolving credit lines"
+      ],
+      "narrative": "After careful review of your application, we are unable to approve your request for credit at this time. The following factors, in order of significance, contributed to this decision:\n- Serious delinquency (90+ days past due) on past or present credit obligations\n- Delinquent payment history in the past 12 months (30-89 days past due)\n- Excessive use of available revolving credit lines\nYou have the right to request the specific factors considered in this decision within 60 days.",
+      "gate_passed": true,
+      "backend": "template"
+    }
+  ]
+}

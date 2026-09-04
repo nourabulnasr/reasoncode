@@ -1,0 +1,9 @@
+# Local causal-LM weights downloaded during development to test the
+# optional llm_narrative() path -- large binaries, not needed to run the
+# shipped demo (which uses the template generator). See NOTES.md.
+models/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
