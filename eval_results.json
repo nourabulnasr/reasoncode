@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-09-04T11:53:24.698100+00:00",
+    "claim_under_test": "The deterministic grounding gate correctly passes grounded narratives and correctly rejects narratives with an omitted or invented/hallucinated reason.",
+    "n_applicants": 50,
+    "n_examples": 150,
+    "grounded_pass_rate": 1.0,
+    "omission_catch_rate": 1.0,
+    "invention_catch_rate": 1.0,
+    "overall_accuracy": 1.0
+  }
+]
